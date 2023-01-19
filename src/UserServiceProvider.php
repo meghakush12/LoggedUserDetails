@@ -1,10 +1,10 @@
 <?php
 
-namespace Laravel\Loggeduser;
+namespace Userdetails\Loggeduser;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use Laravel\Loggeduser\EventServiceProvider;
+use Userdetails\Loggeduser\EventServiceProvider;
 
 
 class UserServiceProvider extends ServiceProvider

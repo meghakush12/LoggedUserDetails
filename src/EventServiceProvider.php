@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Loggeduser;
+namespace Userdetails\Loggeduser;
 
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Auth\Listeners\SendEmailVerificationNotification;
@@ -13,10 +13,10 @@ class EventServiceProvider extends ServiceProvider
         protected $listen = [
 
             \Illuminate\Auth\Events\Login::class => [
-                \Laravel\Loggeduser\Listeners\UserLastlogin::class,
+                \Userdetails\Loggeduser\Listeners\UserLastlogin::class,
             ],
             \Illuminate\Auth\Events\Logout::class => [
-                \Laravel\Loggeduser\Listeners\UserLastLogout::class,
+                \Userdetails\Loggeduser\Listeners\UserLastLogout::class,
             ],
 
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Loggeduser\Listeners;
+namespace Userdetails\Loggeduser\Listeners;
 
 use Carbon\Carbon;
 use Illuminate\Auth\Events\Login;

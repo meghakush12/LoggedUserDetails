@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Loggeduser\Http\Controllers;
+namespace Userdetails\Loggeduser\Http\Controllers;
 
 use PhpParser\Node\Stmt\Return_;
 use Illuminate\Support\Facades\DB;

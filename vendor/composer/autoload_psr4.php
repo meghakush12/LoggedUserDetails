@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Laravel\\Loggeduser\\' => array($baseDir . '/src'),
+    'Userdetails\\Loggeduser\\' => array($baseDir . '/src'),
 );

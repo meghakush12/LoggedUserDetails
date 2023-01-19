@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Loggeduser\Models;
+namespace Userdetails\Loggeduser\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

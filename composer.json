@@ -1,16 +1,16 @@
 {
-    "name": "laravel/loggeduser",
+    "name": "userdetails/loggeduser",
     "description": "Login & Logout details of current user",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Laravel\\Loggeduser\\": "src/"
+            "Userdetails\\Loggeduser\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Laravel\\Loggeduser\\UserServiceProvider"
+                "Userdetails\\Loggeduser\\UserServiceProvider"
             ]
 
         }
