@@ -9,7 +9,7 @@ Route::get('/test', function(){
 });
 
 // Route::get('/user', [Userdetails\Loggeduser\Http\Controllers\UserDetailController::class, 'index'])->name('user');
-Route::get('/user_details', [Userdetails\Loggeduser\Http\Controllers\UserDetailController::class, 'index']);
+Route::get('/user_details', [Userdetails\Loggeduser\Http\Controllers\UserDetailController::class, 'index'])->middleware(['auth']);
 
 
 // require __DIR__.'/../../../../routes/auth.php';

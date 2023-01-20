@@ -31,17 +31,17 @@ class UserServiceProvider extends ServiceProvider
         $this->loadMigrationsFrom(__DIR__.'/database/migrations');
         $this->registerRoutes();
 
-        $this->publishes([__DIR__.'/database/migrations/' => database_path('migrations')], 'loggeduser-migrations');
+        // $this->publishes([__DIR__.'/database/migrations/' => database_path('migrations')], 'loggeduser-migrations');
 
-        $this->publishes([__DIR__.'/resources/views' => resource_path('views')], 'loggeduser-views');
+        // $this->publishes([__DIR__.'/resources/views' => resource_path('views')], 'loggeduser-views');
 
-        // $this->publishes([__DIR__.'/' => app_path('Providers')], 'loggeduser-Providers');
+        // // $this->publishes([__DIR__.'/' => app_path('Providers')], 'loggeduser-Providers');
 
-        $this->publishes([__DIR__.'/Http/Controllers' => app_path('Http/Controllers')],  'loggeduser-Controllers');
+        // $this->publishes([__DIR__.'/Http/Controllers' => app_path('Http/Controllers')],  'loggeduser-Controllers');
 
-        $this->publishes([__DIR__.'/Listeners' => app_path('/Listeners')], 'loggeduser-Listeners');
+        // $this->publishes([__DIR__.'/Listeners' => app_path('/Listeners')], 'loggeduser-Listeners');
 
-        $this->publishes([__DIR__.'/routes/web.php' => base_path('routes/web.php')], 'loggeduser-routes');
+        // $this->publishes([__DIR__.'/routes/web.php' => base_path('routes/web.php')], 'loggeduser-routes');
 
         $this->publishes([__DIR__.'/config/loggeduser.php' => config_path('loggeduser.php'), 'loggeduser-config']);
 

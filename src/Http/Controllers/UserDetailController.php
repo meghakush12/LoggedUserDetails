@@ -15,6 +15,8 @@ class UserDetailController extends Controller
     public function index()
     {
 
+        // dd($_SERVER['REMOTE_ADDR']);
+
         $user_details = DB::table('user_access_details')->get();
 
         return view('loggeduser::user',['user_details'=>$user_details]);
